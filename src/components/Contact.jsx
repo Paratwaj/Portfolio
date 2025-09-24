@@ -65,8 +65,8 @@ const Contact = () => {
   };
 
   const socialLinks = [
-    { icon: Linkedin, url: 'https://linkedin.com/in/yourprofile', label: 'LinkedIn' },
-    { icon: Github, url: 'https://github.com/yourusername', label: 'GitHub' }
+    { icon: Linkedin, url: 'https://www.linkedin.com/in/paratwaj-e-5929b8343/', label: 'LinkedIn' },
+    { icon: Github, url: 'https://github.com/Paratwaj', label: 'GitHub' }
   ];
 
   return (
