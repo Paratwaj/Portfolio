@@ -134,7 +134,7 @@ const Projects = () => {
                   </div>
                   
                   <div className="project-links">
-                    <Button 
+                    {/* <Button 
                       variant="outline-primary" 
                       size="sm" 
                       href={project.githubUrl}
@@ -143,7 +143,7 @@ const Projects = () => {
                     >
                       <Github size={16} className="me-1" />
                       Code
-                    </Button>
+                    </Button> */}
                     <Button 
                       variant="primary" 
                       size="sm"
@@ -151,7 +151,7 @@ const Projects = () => {
                       target="_blank"
                     >
                       <ExternalLink size={16} className="me-1" />
-                      Demo
+                       Live Demo
                     </Button>
                   </div>
                 </Card.Body>
@@ -190,14 +190,14 @@ const Projects = () => {
               </div>
             </Modal.Body>
             <Modal.Footer>
-              <Button 
+              {/* <Button 
                 variant="outline-primary"
                 href={selectedProject['githubUrl']}
                 target="_blank"
               >
                 <Github size={16} className="me-1" />
                 View Code
-              </Button>
+              </Button> */}
               <Button 
                 variant="primary"
                 href={selectedProject['demoUrl']}
