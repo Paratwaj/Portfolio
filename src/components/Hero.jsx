@@ -31,7 +31,6 @@ const Hero = () => {
                 href="/Resume%20-IT.pdf"
                 target="_blank"
               >
-                <Download size={20} className="me-2" />
                 Download Resume
               </Button>
               <Button 

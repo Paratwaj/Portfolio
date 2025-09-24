@@ -116,6 +116,7 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
+  padding-top: 70px; /* For navbar */
 }
 
 /* Gradient Text for Name */
@@ -686,6 +687,33 @@ body {
     padding: 1.5rem;
     margin-bottom: 2rem;
   }
+  
+  .hero-buttons .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content, .hero-image {
+    text-align: center;
+  }
+  
+  .about-section .profile-img {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .gradient-text {
+    font-size: 1.5em;
+  }
+  
+  .skill-tags {
+    justify-content: center;
+  }
+  
+  .project-card {
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -712,6 +740,33 @@ body {
   
   .social-icons {
     justify-content: center;
+  }
+  
+  .hero-image img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .gradient-text {
+    font-size: 1.3em;
+  }
+  
+  .skill-item {
+    text-align: center;
+  }
+  
+  .about-details {
+    text-align: center;
+  }
+  
+  .about-section .profile-img {
+    margin: 0 auto;
+    display: block;
   }
 }
 
