@@ -14,9 +14,9 @@ const Hero = () => {
     <section id="home" className="hero-section">
       <Container className="h-100">
         <Row className="h-100 align-items-center">
-          <Col lg={6} className="hero-content">
-            <h1 className="hero-title mb-3">
-              Hi, I'm <span className="text-primary">Paratwaj E</span>
+          <Col lg={6} className="hero-content" data-aos="fade-right" data-aos-delay="200">
+            <h1 className="hero-title mb-3" data-aos="fade-up" data-aos-delay="100">
+              Hi, I'm <span className="gradient-text">Paratwaj E</span>
             </h1>
             <h2 className="hero-subtitle mb-4">Full Stack Developer</h2>
             <p className="hero-description mb-4">
@@ -27,7 +27,7 @@ const Hero = () => {
               <Button
                 variant="primary"
                 size="lg"
-                className="me-3 mb-2"
+                className="me-3 mb-2 btn-scale"
                 href="/Resume%20-IT.pdf"
                 target="_blank"
               >
@@ -37,14 +37,14 @@ const Hero = () => {
               <Button 
                 variant="outline-light" 
                 size="lg" 
-                className="mb-2"
+                className="mb-2 btn-scale"
                 onClick={scrollToAbout}
               >
                 Learn More
               </Button>
             </div>
           </Col>
-          <Col lg={6} className="hero-image">
+          <Col lg={6} className="hero-image" data-aos="fade-left" data-aos-delay="400">
             <div className="hero-img-container">
               <img 
                 src="/images/Profile_photo.png" 

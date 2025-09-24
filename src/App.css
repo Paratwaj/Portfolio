@@ -118,6 +118,60 @@ body {
   overflow: hidden;
 }
 
+/* Gradient Text for Name */
+.gradient-text {
+  background: linear-gradient(90deg, #77BEF0,#FFFFF0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  font-size: 1.2em;
+  animation: gradientShift 3s ease-in-out infinite alternate;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+/* Skills Animations */
+.progress-animate {
+  animation: progressFill 2s ease-out forwards;
+}
+
+@keyframes progressFill {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+.tag-hover {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.tag-hover:hover {
+  transform: scale(1.1);
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+/* Typing Effect for Subtitle */
+.hero-subtitle {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: white; }
+}
+
 .hero-section::before {
   content: '';
   position: absolute;
@@ -707,4 +761,30 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--accent-color);
+}
+
+/* Enhanced animations */
+.btn-scale {
+  transition: transform 0.3s ease;
+}
+
+.btn-scale:hover {
+  transform: scale(1.05);
+}
+
+.social-icon-scale {
+  transition: transform 0.3s ease;
+}
+
+.social-icon-scale:hover {
+  transform: scale(1.1);
+}
+
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
 }

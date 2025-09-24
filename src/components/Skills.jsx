@@ -35,17 +35,17 @@ const Skills = () => {
   );
 
   return (
-    <section id="skills" className="skills-section py-5">
+    <section id="skills" className="skills-section py-5" data-aos="fade-up">
       <Container>
         <Row className="mb-5">
-          <Col lg={12} className="text-center">
+          <Col lg={12} className="text-center" data-aos="fade-up" data-aos-delay="100">
             <h2 className="section-title">My Skills</h2>
             <p className="section-subtitle">Technologies I work with</p>
           </Col>
         </Row>
         
         <Row>
-          <Col lg={4} className="mb-4">
+          <Col lg={4} className="mb-4" data-aos="fade-right" data-aos-delay="200">
             <div className="skills-category">
               <h4 className="category-title text-center mb-4">
                 <span className="text-primary">Frontend</span> Development
@@ -56,7 +56,7 @@ const Skills = () => {
             </div>
           </Col>
           
-          <Col lg={4} className="mb-4">
+          <Col lg={4} className="mb-4" data-aos="fade-up" data-aos-delay="300">
             <div className="skills-category">
               <h4 className="category-title text-center mb-4">
                 <span className="text-primary">Backend</span> Development
@@ -67,7 +67,7 @@ const Skills = () => {
             </div>
           </Col>
           
-          <Col lg={4} className="mb-4">
+          <Col lg={4} className="mb-4" data-aos="fade-left" data-aos-delay="400">
             <div className="skills-category">
               <h4 className="category-title text-center mb-4">
                 <span className="text-primary">Database </span>Development & Tools
@@ -75,11 +75,11 @@ const Skills = () => {
               {getSkillsByCategory(databaseSkills).map((skill, index) => (
                 <SkillCard key={index} skill={skill} />
               ))}
-              <div className="other-skills mt-4">
+              <div className="other-skills mt-4" data-aos="fade-up" data-aos-delay="500">
                 <h6 className="mb-3">Other Skills</h6>
                 <div className="skill-tags">
                   {['Git','Github'].map((tag, index) => (
-                    <span key={index} className="skill-tag">{tag}</span>
+                    <span key={index} className="skill-tag tag-hover">{tag}</span>
                   ))}
                 </div>
               </div>

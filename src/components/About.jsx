@@ -14,7 +14,7 @@ const About = () => {
         </Row>
         
         <Row className="align-items-center mb-5">
-          <Col lg={4} className="text-center mb-4 mb-lg-0">
+          <Col lg={4} className="text-center mb-4 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <img 
               src="/images/Profile_photo.png" 
               alt="Profile" 
@@ -22,7 +22,7 @@ const About = () => {
             />
           </Col>
           
-          <Col lg={8}>
+          <Col lg={8} data-aos="fade-left" data-aos-delay="400">
             <h3 className="mb-3">Hello! I'm a passionate Full Stack Developer</h3>
             <p className="mb-3">
               With over 1 years of experience in web development, I specialize in creating 
@@ -57,8 +57,8 @@ const About = () => {
         </Row>
         
         <Row>
-          <Col lg={4} className="mb-4">
-            <Card className="about-card h-100">
+          <Col lg={4} className="mb-4" data-aos="fade-up" data-aos-delay="200">
+            <Card className="about-card h-100 card-hover">
               <Card.Body className="text-center">
                 <GraduationCap size={48} className="text-primary mb-3" />
                 <Card.Title>Education</Card.Title>
@@ -71,8 +71,8 @@ const About = () => {
             </Card>
           </Col>
           
-          <Col lg={4} className="mb-4">
-            <Card className="about-card h-100">
+          <Col lg={4} className="mb-4" data-aos="fade-up" data-aos-delay="400">
+            <Card className="about-card h-100 card-hover">
               <Card.Body className="text-center">
                 <Briefcase size={48} className="text-primary mb-3" />
                 <Card.Title>Experience</Card.Title>
@@ -85,8 +85,8 @@ const About = () => {
             </Card>
           </Col>
           
-          <Col lg={4} className="mb-4">
-            <Card className="about-card h-100">
+          <Col lg={4} className="mb-4" data-aos="fade-up" data-aos-delay="600">
+            <Card className="about-card h-100 card-hover">
               <Card.Body className="text-center">
                 <Award size={48} className="text-primary mb-3" />
                 <Card.Title>Achievements</Card.Title>

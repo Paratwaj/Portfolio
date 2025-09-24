@@ -80,7 +80,7 @@ const Contact = () => {
         </Row>
         
         <Row>
-          <Col lg={6} className="mb-5">
+          <Col lg={6} className="mb-5" data-aos="fade-right" data-aos-delay="200">
             <div className="contact-info">
               <h4 className="mb-4">Let's Talk</h4>
               <p className="mb-4">
@@ -123,7 +123,7 @@ const Contact = () => {
                       href={social.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="social-icon me-3"
+                      className="social-icon me-3 social-icon-scale"
                       aria-label={social.label}
                     >
                       <social.icon size={24} />
@@ -134,7 +134,7 @@ const Contact = () => {
             </div>
           </Col>
           
-          <Col lg={6}>
+          <Col lg={6} data-aos="fade-left" data-aos-delay="400">
             <div className="contact-form">
               <h4 className="mb-4">Send Message</h4>
               

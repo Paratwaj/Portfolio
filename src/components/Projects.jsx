@@ -35,7 +35,7 @@ const Projects = () => {
       shortDescription: 'Complete inventory tracking solution',
       description: 'A comprehensive inventory management system for tracking products, stock levels, and orders. Features include real-time inventory updates, reporting, and analytics.',
       image: 'https://media.istockphoto.com/id/2234685961/photo/businessman-selecting-digital-approval-checkmark-on-virtual-screen-with-document-icons.jpg?s=612x612&w=0&k=20&c=7FZ8lCzsBzNMUrti0gQk3U26joGjm3tN7Q5g4tEKnWI=',
-      techStack: ['React', 'Node.js', 'PostgreSQL', 'Express', 'JWT'],
+      techStack: ['Html', 'CSS', 'Javascript', 'MySQL', 'PHP', 'Bootstrap'],
       githubUrl: '#',
       demoUrl: 'https://kings.roririsoft.com',
       features: ['Real-time Stock Tracking', 'Order Management', 'Inventory Reports', 'Product Catalog', 'Analytics Dashboard']
@@ -89,16 +89,16 @@ const Projects = () => {
     <section id="projects" className="projects-section py-5">
       <Container>
         <Row className="mb-5">
-          <Col lg={12} className="text-center">
+          <Col lg={12} className="text-center" data-aos="fade-up">
             <h2 className="section-title">My Projects</h2>
             <p className="section-subtitle">Some of my recent work</p>
           </Col>
         </Row>
         
         <Row>
-          {projects.map((project) => (
-            <Col lg={4} md={6} className="mb-4" key={project.id}>
-              <Card className="project-card h-100">
+          {projects.map((project, index) => (
+            <Col lg={4} md={6} className="mb-4" key={project.id} data-aos="fade-up" data-aos-delay={index * 100}>
+              <Card className="project-card h-100 card-hover">
                 <div className="project-image-container">
                   <Card.Img 
                     variant="top" 
