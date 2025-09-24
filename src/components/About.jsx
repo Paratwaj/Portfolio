@@ -16,7 +16,7 @@ const About = () => {
         <Row className="align-items-center mb-5">
           <Col lg={4} className="text-center mb-4 mb-lg-0">
             <img 
-              src="/public/images/Profile_photo.png" 
+              src="/images/Profile_photo.png" 
               alt="Profile" 
               className="profile-img img-fluid rounded-circle shadow-lg"
             />
