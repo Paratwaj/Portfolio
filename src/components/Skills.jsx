@@ -78,7 +78,7 @@ const Skills = () => {
               <div className="other-skills mt-4" data-aos="fade-up" data-aos-delay="500">
                 <h6 className="mb-3">Other Skills</h6>
                 <div className="skill-tags">
-                  {['Git','Github'].map((tag, index) => (
+                  {['Git','Github','Vercel','Netlify'].map((tag, index) => (
                     <span key={index} className="skill-tag tag-hover">{tag}</span>
                   ))}
                 </div>

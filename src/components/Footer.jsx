@@ -15,8 +15,8 @@ const Footer = () => {
         <Row className="align-items-center">
           <Col lg={6} className="text-center text-lg-start">
             <p className="mb-0">
-              © {currentYear} Paratwaj E. Made with <Heart size={16} className="text-danger mx-1" /> 
-              using React & Bootstrap
+              © {currentYear} Copyright Paratwaj, <Heart size={16} className="text-danger mx-1" /> 
+             ALl rights reserved.
             </p>
           </Col>
           <Col lg={6} className="text-center text-lg-end">

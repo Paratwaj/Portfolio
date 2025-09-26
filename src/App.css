@@ -121,7 +121,7 @@ body {
 
 /* Gradient Text for Name */
 .gradient-text {
-  background: linear-gradient(90deg, #77BEF0,#FFFFF0);
+  background: linear-gradient(90deg, #E96C47,#FFFFF0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

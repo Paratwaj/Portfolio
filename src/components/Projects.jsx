@@ -13,7 +13,7 @@ const Projects = () => {
       shortDescription: 'Modern canteen management system with online ordering',
       description: 'A comprehensive smart canteen system built with modern web technologies. Features include menu management, online ordering, inventory tracking, and admin dashboard for efficient canteen operations.',
       image: 'https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=600',
-      techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'JWT'],
+      techStack: ['React', 'Node.js', 'Postgresql', 'Express', 'Bootstrap','Tailwind CSS','JavaScript','HTML','CSS'],
       githubUrl: '#',
       demoUrl: 'https://canteen-app-alpha.vercel.app/',
       features: ['Online Ordering', 'Menu Management', 'Inventory Tracking', 'User Authentication', 'Admin Dashboard']
@@ -24,7 +24,7 @@ const Projects = () => {
       shortDescription: 'Digital visitor management solution',
       description: 'A modern visitor registration system for efficient visitor management. Features include visitor check-in/check-out, host notifications, visitor history, and security management.',
       image: 'https://images.pexels.com/photos/3184399/pexels-photo-3184399.jpeg?auto=compress&cs=tinysrgb&w=600',
-      techStack: ['React', 'Firebase', 'Material-UI', 'Node.js'],
+      techStack: ['React', 'HTML', 'Tailwind CSS', 'Node.js','Express','Postgresql','Vercel'],
       githubUrl: '#',
       demoUrl: 'https://visitor-registration-chi.vercel.app/',
       features: ['Visitor Check-in/Check-out', 'Host Notifications', 'Visitor History', 'Security Management', 'Digital Registration']
@@ -46,7 +46,7 @@ const Projects = () => {
       shortDescription: 'Company website and service showcase',
       description: 'A professional company website showcasing services, portfolio, and business information. Built with modern web technologies and optimized for business presentation.',
       image: 'https://media.istockphoto.com/id/1351571961/photo/looking-directly-up-at-the-skyline-of-the-financial-district-in-central-london.jpg?s=612x612&w=0&k=20&c=4J_aWJc5gMATCtIbMkF0dMq4dzz_XjLx5DpwnuPJwkg=',
-      techStack: ['React', 'Next.js', 'Tailwind CSS', 'Vercel'],
+      techStack: ['React', 'HTML','Javascript', 'Tailwind CSS', 'Vercel'],
       githubUrl: '#',
       demoUrl: 'https://rss-website-swart.vercel.app/',
       features: ['Service Showcase', 'Company Portfolio', 'Contact Integration', 'Responsive Design', 'SEO Optimized']
@@ -57,7 +57,7 @@ const Projects = () => {
       shortDescription: 'Food business website and ordering platform',
       description: 'A dedicated website for Sridevi Snacks featuring menu showcase, online ordering capabilities, and business information presentation.',
       image: 'https://media.istockphoto.com/id/1149135424/photo/group-of-sweet-and-salty-snacks-perfect-for-binge-watching.jpg?s=612x612&w=0&k=20&c=YAVqRyUJgj_nXpltYUPpaW_PYtd4v2TC5Mo0DtVFuoo=',
-      techStack: ['React', 'Vite', 'Tailwind CSS', 'Vercel'],
+      techStack: ['React', 'HTML','Node js', 'Tailwind CSS','Postgresql', 'Vercel'],
       githubUrl: '#',
       demoUrl: 'https://sridevisnacks.vercel.app',
       features: ['Menu Display', 'Online Ordering', 'Business Information', 'Contact Details', 'Responsive Design']
@@ -68,9 +68,9 @@ const Projects = () => {
       shortDescription: 'Personal portfolio and project showcase',
       description: 'A professional portfolio website showcasing projects, skills, and experience. Built with modern web technologies and optimized for performance and SEO.',
       image: 'https://media.istockphoto.com/id/2177131480/photo/businessman-hands-with-light-bulb-of-inspiration-bright-idea-and-creative-thinking-energetic.jpg?s=612x612&w=0&k=20&c=F4m3vp09RFrmB8ANBH3oNM48OzYjvrFrviWqwgXtgy0=',
-      techStack: ['React', 'Vite', 'Tailwind CSS', 'Bootstrap'],
+      techStack: ['React', 'Vite', 'Tailwind CSS', 'Bootstrap','Netlify'],
       githubUrl: '#',
-      demoUrl: '#',
+      demoUrl: 'https://portfolioparath.netlify.app/',
       features: ['Project Showcase', 'Skills Display', 'Contact Information', 'Responsive Design', 'Modern UI/UX']
     }
   ];
@@ -151,7 +151,7 @@ const Projects = () => {
                       target="_blank"
                     >
                       <ExternalLink size={16} className="me-1" />
-                       Live Demo
+                       
                     </Button>
                   </div>
                 </Card.Body>
@@ -204,7 +204,7 @@ const Projects = () => {
                 target="_blank"
               >
                 <ExternalLink size={16} className="me-1" />
-                Live Demo
+                
               </Button>
             </Modal.Footer>
           </>

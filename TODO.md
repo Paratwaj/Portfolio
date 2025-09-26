@@ -1,13 +1,10 @@
-- [x] Convert src/components/About.tsx to About.jsx (remove React.FC)
-- [x] Convert src/components/Contact.tsx to Contact.jsx (remove React.FC)
-- [x] Convert src/components/Footer.tsx to Footer.jsx (remove React.FC)
-- [x] Convert src/components/Hero.tsx to Hero.jsx (remove React.FC)
-- [x] Convert src/components/Navbar.tsx to Navbar.jsx (remove React.FC)
-- [x] Convert src/components/Projects.tsx to Projects.jsx (remove interface, React.FC, typed useState)
-- [x] Convert src/components/Skills.tsx to Skills.jsx (remove React.FC)
-- [ ] Update src/App.tsx imports to .jsx and remove any types, rename to App.jsx
-- [ ] Update src/main.tsx import to App.jsx, remove !, rename to main.jsx
-- [ ] Convert vite.config.ts to vite.config.js
-- [ ] Update package.json to remove TypeScript dependencies
-- [ ] Delete tsconfig files
-- [ ] Update eslint.config.js if needed
+# TODO: Resume Download Button Fix
+
+## Previous Task (Auto-Reply)
+- [x] Edit `src/components/Contact.jsx` to add EmailJS auto-reply send using template `template_kmuv1fp` after successful admin notification
+- [x] UI testing: Form loads, fields fillable, submission button clickable (no errors in console)
+- [ ] Email verification: Check paratwaj@gmail.com for admin notification and test@example.com for auto-reply
+
+## Current Task: Make Resume-IT.pdf Download/Open on Button Click
+- [x] Edit `src/components/Hero.jsx` to update the "Download Resume" button to open PDF preview in new tab with `target="_blank"` and URL-encoded href "/Resume%20-IT.pdf"
+- [x] Test the button: Run dev server, click button, verify new tab opens with PDF preview (no console errors)

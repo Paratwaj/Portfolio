@@ -48,6 +48,27 @@ const Contact = () => {
         publicKey
       );
 
+      // Send auto-reply to sender
+      try {
+        const autoReplyData = {
+          to_name: formData.name,
+          to_email: formData.email,
+          from_name: 'Paratwaj E',
+          message: 'Thank you for reaching out! I have received your message and will respond shortly.',
+          reply_to: 'paratwaj@gmail.com'
+        };
+
+        await emailjs.send(
+          serviceId,
+          'template_kmuv1fp',
+          autoReplyData,
+          publicKey
+        );
+      } catch (autoReplyError) {
+        console.error('Auto-reply failed:', autoReplyError);
+        // Continue with success even if auto-reply fails
+      }
+
       // Success
       setAlertVariant('success');
       setShowAlert(true);
